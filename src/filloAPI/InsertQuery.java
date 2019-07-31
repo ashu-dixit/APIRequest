@@ -13,6 +13,7 @@ public class InsertQuery {
 		
 		String strquery="INSERT Into Sheet1(name,lastname,marks,percentage) VALUES('first7','Second7','440','88')";
 		connection.executeUpdate(strquery);
+		connection.close();
 	}
 
 }
